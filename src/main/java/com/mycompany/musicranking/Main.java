@@ -734,6 +734,7 @@ public class Main extends javax.swing.JFrame {
         FileFilter filter = new FileNameExtensionFilter("CSV files", "csv");
         chooser.setFileFilter(filter);
         // แสดงหน้าต่างเลือกไฟล์ และรับค่าการเลือกไฟล์ที่ผู้ใช้ทำ
+        // ในกรณีนี้ควรเลือกไฟล์ .csv และมีข้อมูลเป็นภาษาอังกฤษเท่านั้น
         int returnVal = chooser.showOpenDialog(this);
 
         // ถ้าผู้ใช้เลือกไฟล์เรียบร้อย
